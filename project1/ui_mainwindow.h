@@ -120,7 +120,7 @@ public:
         field_output->setMinimumSize(QSize(250, 180));
         field_output->setMaximumSize(QSize(16777215, 180));
         QFont font2;
-        font2.setFamilies({QString::fromUtf8("Open Sans Light")});
+        font2.setFamilies({QString::fromUtf8("Open Sans")});
         font2.setPointSize(16);
         font2.setBold(false);
         field_output->setFont(font2);
@@ -138,10 +138,7 @@ public:
         field_input->setSizePolicy(sizePolicy2);
         field_input->setMinimumSize(QSize(250, 180));
         field_input->setMaximumSize(QSize(16777215, 180));
-        QFont font3;
-        font3.setFamilies({QString::fromUtf8("Open Sans Light")});
-        font3.setPointSize(16);
-        field_input->setFont(font3);
+        field_input->setFont(font2);
         field_input->setCursor(QCursor(Qt::ArrowCursor));
 
         mainfield->addWidget(field_input, 1, 0, 1, 1);
@@ -153,9 +150,9 @@ public:
         pb_cryption->setObjectName(QString::fromUtf8("pb_cryption"));
         pb_cryption->setMinimumSize(QSize(100, 0));
         pb_cryption->setMaximumSize(QSize(100, 16777215));
-        QFont font4;
-        font4.setFamilies({QString::fromUtf8("Open Sans")});
-        pb_cryption->setFont(font4);
+        QFont font3;
+        font3.setFamilies({QString::fromUtf8("Open Sans")});
+        pb_cryption->setFont(font3);
 
         verticalLayout->addWidget(pb_cryption, 0, Qt::AlignHCenter);
 

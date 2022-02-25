@@ -160,7 +160,7 @@
         </property>
         <property name="font">
          <font>
-          <family>Open Sans Light</family>
+          <family>Open Sans</family>
           <pointsize>16</pointsize>
           <weight>50</weight>
           <bold>false</bold>
@@ -196,8 +196,10 @@
         </property>
         <property name="font">
          <font>
-          <family>Open Sans Light</family>
+          <family>Open Sans</family>
           <pointsize>16</pointsize>
+          <weight>50</weight>
+          <bold>false</bold>
          </font>
         </property>
         <property name="cursor">
